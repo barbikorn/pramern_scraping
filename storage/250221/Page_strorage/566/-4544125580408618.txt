@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="shortcut icon" href="http://www.led.go.th/images/icon/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-874">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+	<!-- Bootstrap core CSS -->
+    <link href="/template/Theme12/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	 <link rel="stylesheet" href="/template/Theme12/css/lightbox.min.css">
+
+	<link href="/template/Theme12/menubar.css" rel="stylesheet" type="text/css"/>
+
+    
+    <!-- font th sarabun new -->
+    <link href="/template/Theme12/style.css" rel="stylesheet" type="text/css" />
+    
+    <!-- font css-->
+    <link href="/template/Theme12/fontstyle.css" rel="stylesheet" type="text/css" />
+    
+   <!-- Custom styles for this template -->
+    <link href="/template/Theme12/css/modern-business.css" rel="stylesheet" type="text/css" />
+    
+    
+        <!--[if IE 9]>
+          <link href="/template/theme12/css/bootstrap-ie9.css" rel="stylesheet">
+          <![endif]-->
+          <!--[if lt IE 9]>
+          <link href="/template/theme12/css/bootstrap-ie8.css" rel="stylesheet">
+          <script src="/template/theme12/js/html5shiv.js"></script>
+          <![endif]-->
+
+   
+	<script src="/template/theme12/js/jquery-1.2.6.min.js"></script>
+	<script src="/template/theme12/js/lightbox-plus-jquery.min.js"></script>
+    <script src="/template/theme12/js1/jquery.min.js"></script>
+    <script src="/template/theme12/js1/bootstrap.bundle.min.js"></script>
+	<script src="/template/theme12/js1/bootstrap-select.js"></script>
+ 
+
+    <style>
+
+.printasset{
+                background: url(/images/newbid/print.jpg) no-repeat;
+				width: 30px;
+				height: 30px;
+                cursor:pointer;
+                border: none;
+            }
+.facebook_asset{
+                background: url(/images/newbid/facebook.jpg) no-repeat;
+				width: 30px;
+				height: 30px;
+                cursor:pointer;
+                border: none;
+            }
+		.line_asset{
+                background: url(/images/newbid/line.jpg) no-repeat;
+				width: 30px;
+				height: 30px;
+                cursor:pointer;
+                border: none;
+            }
+</style>
+
+<body>
+
+	<link href="/template/Theme12/lightGallery/dist/css/lightgallery.css" rel="stylesheet">
+	        <style type="text/css">
+            body{
+                background-color: #152836
+            }
+            .demo-gallery > ul {
+              margin-bottom: 0;
+            }
+            .demo-gallery > ul > li {
+                float: left;
+                margin-bottom: 15px;
+                margin-right: 20px;
+                width: 200px;
+            }
+            .demo-gallery > ul > li a {
+              border: 3px solid #FFF;
+              border-radius: 3px;
+              display: block;
+              overflow: hidden;
+              position: relative;
+              float: left;
+            }
+            .demo-gallery > ul > li a > img {
+              -webkit-transition: -webkit-transform 0.15s ease 0s;
+              -moz-transition: -moz-transform 0.15s ease 0s;
+              -o-transition: -o-transform 0.15s ease 0s;
+              transition: transform 0.15s ease 0s;
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+              height: 100%;
+              width: 100%;
+            }
+            .demo-gallery > ul > li a:hover > img {
+              -webkit-transform: scale3d(1.1, 1.1, 1.1);
+              transform: scale3d(1.1, 1.1, 1.1);
+            }
+            .demo-gallery > ul > li a:hover .demo-gallery-poster > img {
+              opacity: 1;
+            }
+            .demo-gallery > ul > li a .demo-gallery-poster {
+              background-color: rgba(0, 0, 0, 0.1);
+              bottom: 0;
+              left: 0;
+              position: absolute;
+              right: 0;
+              top: 0;
+              -webkit-transition: background-color 0.15s ease 0s;
+              -o-transition: background-color 0.15s ease 0s;
+              transition: background-color 0.15s ease 0s;
+            }
+            .demo-gallery > ul > li a .demo-gallery-poster > img {
+              left: 50%;
+              margin-left: -10px;
+              margin-top: -10px;
+              opacity: 0;
+              position: absolute;
+              top: 50%;
+              -webkit-transition: opacity 0.3s ease 0s;
+              -o-transition: opacity 0.3s ease 0s;
+              transition: opacity 0.3s ease 0s;
+            }
+            .demo-gallery > ul > li a:hover .demo-gallery-poster {
+              background-color: rgba(0, 0, 0, 0.5);
+            }
+            .demo-gallery .justified-gallery > a > img {
+              -webkit-transition: -webkit-transform 0.15s ease 0s;
+              -moz-transition: -moz-transform 0.15s ease 0s;
+              -o-transition: -o-transform 0.15s ease 0s;
+              transition: transform 0.15s ease 0s;
+              -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+              height: 100%;
+              width: 100%;
+            }
+            .demo-gallery .justified-gallery > a:hover > img {
+              -webkit-transform: scale3d(1.1, 1.1, 1.1);
+              transform: scale3d(1.1, 1.1, 1.1);
+            }
+            .demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+              opacity: 1;
+            }
+            .demo-gallery .justified-gallery > a .demo-gallery-poster {
+              background-color: rgba(0, 0, 0, 0.1);
+              bottom: 0;
+              left: 0;
+              position: absolute;
+              right: 0;
+              top: 0;
+              -webkit-transition: background-color 0.15s ease 0s;
+              -o-transition: background-color 0.15s ease 0s;
+              transition: background-color 0.15s ease 0s;
+            }
+            .demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+              left: 50%;
+              margin-left: -10px;
+              margin-top: -10px;
+              opacity: 0;
+              position: absolute;
+              top: 50%;
+              -webkit-transition: opacity 0.3s ease 0s;
+              -o-transition: opacity 0.3s ease 0s;
+              transition: opacity 0.3s ease 0s;
+            }
+            .demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+              background-color: rgba(0, 0, 0, 0.5);
+            }
+            .demo-gallery .video .demo-gallery-poster img {
+              height: 48px;
+              margin-left: -24px;
+              margin-top: -24px;
+              opacity: 0.8;
+              width: 48px;
+            }
+            .demo-gallery.dark > ul > li a {
+              border: 3px solid #04070a;
+            }
+            .home .demo-gallery {
+              padding-bottom: 80px;
+            }
+        </style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <title>755120ขายทอดตลาดรายการทรัพย์ที่&nbsp;14 - 1 กรมบังคับคดี 035 </title>
+	
+<div class="bg-white">
+
+<div class="container">
+					  <div class="row">
+						  <div class="col-lg-12 col-sm-12">
+                 				<div class="card-text">
+									<br>
+									<table style="BORDER-BOTTOM: #2C3E50 3px solid" width="100%">
+										<tr valign="bottom" height="45">
+										<td>
+										<strong><font size="6">รายการทรัพย์ที่จะขาย</font></strong>
+										</td>
+										</tr>
+									</table>
+									<br>
+								
+									<table width="100%">
+									<tr bgcolor="#2C3E50" valign="middle" height="45">
+										<td width="70%">
+										<strong><font color="#FFFFFF"><font size="4">&nbsp;&nbsp;ทรัพย์ที่จะขาย ลำดับที่&nbsp;14 - 1</font></font></strong>
+										</td>
+											<td width="30%" align="right">
+												<button style="border: none; background-color: transparent" type="submit" name="print" onClick="window.print()"><img src="/images/print-icon.png" width="25" height="25" alt="พิมพ์"/></button>&nbsp;&nbsp;
+												<button style="border: none; background-color: transparent" type="submit" name="close" onclick="javascript:window.open('','_self');window.close()"><img src="/images/close.png" width="25" height="25" alt="ปิดหน้าต่าง"/></button>&nbsp;&nbsp;
+											</td>
+										</tr>
+									</table>
+										<font color=red size=2></font><font color=red size=4></font>
+							  </div>
+						  </div>
+									
+									<div class="col-lg-7 col-md-5 col-sm-12 d-md-none">
+                 				<div class="card-body">
+									      <a style="text-decoration: none;" class="example-image-link" href="/PPKPicture/2563/11-2563/30/c86-240p.jpg" data-lightbox="example-set-1" data-title="ภาพทรัพย์ที่จะขาย ลำดับที่&nbsp;14 - 1"><img class="card-img-top" src="/PPKPicture/2563/11-2563/30/c86-240p.jpg" alt="image-1"></a>
+									<br>
+										<table class="d-print-none" width="100%" height="50" bgcolor="#2C3E50" border="1" bordercolor="#FFFFFF">
+									<tr align="center" valign="middle">
+										<td>
+									
+										<a style="text-decoration: none;" class="example-image-link" href="/PPKPicture/2563/11-2563/30/c86-240m.JPG" data-lightbox="example-set-1" data-title="แผนที่ตั้งทรัพย์พอสังเขป"><font color="#FFFFFF"><font size="3"><strong>ดูแผนที่ตั้งทรัพย์พอสังเขป</strong></font></font></a>
+											
+											</td>
+									</tr>
+									</table>
+									<table class="d-print-none" width="100%" height="50" bgcolor="#2C3E50" border="1" bordercolor="#FFFFFF">
+									<tr align="center" valign="middle">
+										<td width="50%">
+									
+										<a style="text-decoration: none;" class="example-image-link" href="/PPKPicture/2563/11-2563/30/c86-240j.jpg" data-lightbox="example-set-1" data-title="แผนที่โจทก์ส่ง"><font color="#FFFFFF"><font size="3"><strong>ดูแผนที่โจทก์ส่ง</strong></font></font></a>
+									
+										</td>
+										<td width="50%">
+												<a style="font-size: 4pt; text-decoration: none;" href="" onClick="window.open('http://dolwms.dol.go.th/tvwebp/'); return false;"><font color="#E74C3C"><font size="3"><strong>ดูแผนที่จากกรมที่ดิน</strong></font></font></a>
+										</td>
+									</tr>
+									</table>
+							  </div>
+						</div>
+									
+									<div class="col-lg-7 col-md-5 d-none d-md-block d-lg-none">
+                 				<div class="card-body">
+      <a class="example-image-link" href="/PPKPicture/2563/11-2563/30/c86-240p.jpg" data-lightbox="example-set-2" data-title="ภาพทรัพย์ที่จะขาย ลำดับที่&nbsp;14 - 1"><img class="example-image" src="/PPKPicture/2563/11-2563/30/c86-240p.jpg" alt="image-1" width="300" height="250"/></a>
+									<br>
+										<table class="d-print-none" width="302" height="45" bgcolor="#2C3E50" border="1" bordercolor="#FFFFFF">
+									<tr align="center" valign="middle">
+										<td>
+									
+											<a style="text-decoration: none;" class="example-image-link" href="/PPKPicture/2563/11-2563/30/c86-240m.JPG" data-lightbox="example-set-2" data-title="แผนที่ตั้งทรัพย์พอสังเขป"><font color="#FFFFFF"><font size="3"><strong>ดูแผนที่ตั้งทรัพย์พอสังเขป</strong></font></font></a>
+											
+											</td>
+									</tr>
+									</table>
+									<table class="d-print-none" width="302" height="45" bgcolor="#2C3E50" border="1" bordercolor="#FFFFFF">
+									<tr align="center" valign="middle">
+										<td width="50%">
+									
+										<a style="text-decoration: none;" class="example-image-link" href="/PPKPicture/2563/11-2563/30/c86-240j.jpg" data-lightbox="example-set-2" data-title="แผนที่โจทก์ส่ง"><font color="#FFFFFF"><font size="3"><strong>ดูแผนที่โจทก์ส่ง</strong></font></font></a>
+									
+										</td>
+										<td width="50%">
+												<a style="text-decoration: none;" href="" onClick="window.open('http://dolwms.dol.go.th/tvwebp/'); return false;"><font color="#E74C3C"><font size="3"><strong>ดูแผนที่จากกรมที่ดิน</strong></font></font></a>
+										</td>
+									</tr>
+									</table>
+							  </div>
+						</div>
+									
+	
+						  <div class="col-lg-7 col-md-7 col-sm-12">
+                 				<div class="card-body">
+									<div class="row">
+										<div class="col-lg-12 col-sm-12">
+											<div class="card-text">
+												<font color="#000000"><strong>ศาล </strong></font> แพ่งกรุงเทพใต้
+												</div>
+										</div>
+										<div class="col-lg-12 col-sm-12">
+											<div class="card-text">
+									<font color="#FF0000" ><strong>คดีหมายเลขแดงที่ </strong></font>11125 / 2551</font>
+											</div>
+										</div>
+									<div class="col-lg-12 col-md-12 col-sm-12">
+											<div class="card-text">
+										<font color="#000000" ><strong>โจทก์ </strong></font><u>บ.โตโยต้า ลีสซิ่ง (ประเทศไทย)</u>
+										<br>
+										<font color="#000000"><strong>จำเลย </strong></font><u>น.ส.สุภิญญา  เกษรากุล  ที่ 1  กับพวก</u>
+										</div>
+									</div>
+											<div class="col-lg-12 col-md-12 col-sm-12">
+											<div class="card-text">
+												<font color="#000000"><strong>ประเภททรัพย์ </strong></font> ห้องชุด
+												</div>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12">
+											<div class="card-text">
+												<font color="#000000"><strong>ที่ดิน </strong></font> โฉนดเลขที่&nbsp;11119
+												</div>
+										</div>
+										<div class="col-lg-6 col-md-12 col-sm-12">
+											<div class="card-text">
+									<font color="#000000"><strong>เนื้อที่</strong></font>&nbsp;-&nbsp;ไร่&nbsp;-&nbsp;งาน&nbsp;25.68&nbsp;ตร.วา/ตร.ม.
+											</div>
+										</div>
+											<div class="col-lg-6 col-md-6 col-sm-12">
+											<div class="card-text">
+												<font color="#000000"><strong>เลขที่ </strong></font> 86/240
+												</div>
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-12">
+											<div class="card-text">
+												<font color="#000000"><strong>แขวง/ตำบล </strong></font> ดอกไม้
+											</div>
+										</div>
+											<div class="col-lg-6 col-md-6 col-sm-12">
+											<div class="card-text">
+												<font color="#000000"><strong>เขต/อำเภอ </strong></font> ประเวศ
+												</div>
+										</div>
+										<div class="col-lg-6 col-md-6 col-sm-12">
+											<div class="card-text">
+												<font color="#000000"><strong>จังหวัด </strong></font> กรุงเทพฯ
+											</div>
+										</div>
+											<div class="col-lg-12 col-md-12 col-sm-12">
+											<div class="card-text">
+												<font color="#000000"><strong>ผู้ถือกรรมสิทธิ์</strong></font>&nbsp;&nbsp;น.อ.สุรพงศ์  ทรงโฉม
+											</div>
+										</div>
+										<div class="col-lg-12 col-md-12 col-sm-12">
+                 						                                                                           <div class="card-text">
+										<strong>ติดต่อ สำนักงานบังคับคดี/กอง</strong>&nbsp;แพ่งกรุงเทพมหานคร 2&nbsp;
+										<br>
+										<strong>โทรศัพท์</strong>&nbsp;(02)6723186,6739411-18 ต่อ 13-16
+										<br>
+										<strong>เจ้าของสำนวน</strong> วิธินันท์  ช่างสลัก
+										<br>
+										<strong>สถานที่จำหน่าย</strong> จำหน่ายนัดที่ 1-4 ณ อาคารอสีติพรรษ กรมบังคับคดี  เลขที่ 189/1  ถนน บางขุนนนท์ แขวงบางขุนนนท์ เขตบางกอกน้อย กรุงเทพมหานคร   เวลา 09.00  
+										</div>
+										</div>	
+											
+								</div>
+						</div>
+					</div>	
+									
+								<div class="col-lg-5 col-md-5 col-sm-5 d-none d-lg-block">
+                 				<div class="card-body">
+									<div id="lightgallery">
+										<div data-responsive="/PPKPicture/2563/11-2563/30/c86-240p.jpg" data-src="/PPKPicture/2563/11-2563/30/c86-240p.jpg" data-sub-html="ภาพทรัพย์ที่จะขาย ลำดับที่&nbsp;14 - 1">
+											<a href="">
+												<img src="/PPKPicture/2563/11-2563/30/c86-240p.jpg" alt="image-1" width="300" height="250">
+											</a>
+										</div>
+									</div>
+										<table class="d-print-none" width="300" height="45" bgcolor="#2C3E50" border="1" bordercolor="#FFFFFF">
+									<tr align="center" valign="middle">
+										<td>
+											<div id="lightgallery2">
+												
+											<div data-responsive="/PPKPicture/2563/11-2563/30/c86-240m.JPG" data-src="/PPKPicture/2563/11-2563/30/c86-240m.JPG" data-sub-html="แผนที่ตั้งทรัพย์พอสังเขป">
+												<a style="text-decoration: none; color: #FFFFFF; font-size: 3;align-content: center;" href=""><strong>ดูแผนที่ตั้งทรัพย์พอสังเขป</strong>
+												</a>
+												
+											</div>
+									</div>
+										</td>
+									</tr>
+									</table>
+									<table class="d-print-none" width="300" height="45" bgcolor="#2C3E50" border="1" bordercolor="#FFFFFF">
+									<tr align="center" valign="middle">
+										<td width="50%">
+											<div id="lightgallery3">
+												
+											<div data-responsive="/PPKPicture/2563/11-2563/30/c86-240j.jpg" data-src="/PPKPicture/2563/11-2563/30/c86-240j.jpg" data-sub-html="แผนที่โจทก์ส่ง">
+												<a style="text-decoration: none; color: #FFFFFF; font-size: 3;align-content: center;" href=""><strong>ดูแผนที่โจทก์ส่ง</strong>
+												</a>
+												
+											</div>
+										</td>
+										<td width="50%">
+												<a style="font-size: 4pt; text-decoration: none;" href="" onClick="window.open('http://dolwms.dol.go.th/tvwebp/'); return false;"><font color="#E74C3C"><font size="3"><strong>ดูแผนที่จากกรมที่ดิน</strong></font></font></a>
+										</td>
+									</tr>
+									</table>
+							  </div>
+						</div>				
+												
+								<!--<div class="col-lg-3 col-sm-12">
+                 				<div class="card-text">	
+									
+										<a href="" onClick="window.open('/PPKPicture/2563/11-2563/30/c86-240m.JPG','mapopen','width=740,height=600,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes'); 
+													  return false;"><img class="card-img-top"  src="/PPKPicture/2563/11-2563/30/c86-240m.JPG" border="1"></a>
+											
+							 </div>
+						 </div>
+									
+					<div class="col-lg-3 col-sm-12">
+                 				<div class="card-text">	
+									
+										<a href="" onClick="window.open('/PPKPicture/2563/11-2563/30/c86-240j.jpg','mapopen','width=740,height=600,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes'); 
+													  return false;"><img class="card-img-top"  src="/PPKPicture/2563/11-2563/30/c86-240j.jpg" border="1"></a>
+									
+							 </div>
+						 </div>-->
+												
+							 <div class="col-lg-5 col-md-12 col-sm-12">
+									 	<table width="100%" bgcolor="#E74C3C" bordercolor="#2C3E50" border="1" style="border-left: 1px solid #E74C3C;border-right: 1px solid #E74C3C;" cellspacing="0" cellpadding="0">
+										  <tr>
+										 <td align="center" width="20%" style="padding: 5px 0"><h5><strong>นัดที่</strong></h5></td>
+										<td align="center" width="30%" style="padding: 5px 0"><h5><strong>วันที่</strong></h5></td>
+										<td align="center" width="50%" style="padding: 5px 0"><h5><strong>สถานะ</strong></h5></td>
+										 </tr>
+				  
+						<tr> 
+                        <td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>&nbsp;1</strong></font></td>
+						<td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>&nbsp;10/03/2564</strong></font></td>
+						<td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>-</strong></font>
+							</td>
+                      </tr>
+                      <tr> 
+                        <td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>&nbsp;2</strong></font></td>
+						<td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>&nbsp;31/03/2564</strong></font></td>
+						<td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>-</strong></font></td>
+                      </tr>
+                      <tr> 
+                         <td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>&nbsp;3</strong></font></td>
+						<td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>&nbsp;21/04/2564</strong></font></td>
+						<td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>-</strong></font></td>
+                      </tr>
+                      <tr> 
+                         <td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>&nbsp;4</strong></font></td>
+						<td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>&nbsp;12/05/2564</strong></font></td>
+						<td align="center" valign="middle" style="padding:5px 0"><font color=#000000><strong>-</strong></font></td>
+                      </tr>
+                  	 
+                      </table>
+						 <br>
+						 </div>
+						 
+						 <div class="col-lg-7 col-md-12 col-sm-12">
+									<div class="row">
+										<div class="col-lg-12 col-sm-12">
+									<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> จะทำการขายโดย
+                       <strong><font color="#E74C3C">ปลอดการจำนอง &nbsp; 
+                       </font></strong>
+										</div>
+<!--
+							<div class="col-lg-8 col-md-8 col-sm-8">
+							<div class="card-text">
+								&nbsp;<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> ราคาประเมินของสำนักประเมินราคาทรัพย์ กรมธนารักษ์ 
+								</div>
+							</div>
+								<div class="col-lg-4 col-md-4 col-sm-4">
+							<div class="card-text">
+							จำนวน
+                                                                   <strong><font color="#E74C3C">
+						
+					 ไม่มี
+						
+					   </strong></font> บาท
+						</div>
+						</div>
+-->
+										<div class="col-lg-8 col-md-8 col-sm-8">
+												<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> ราคาประเมินของผู้เชี่ยวชาญการประเมินราคา 
+										</div>
+											<div class="col-lg-4 col-md-4 col-sm-4">
+													จำนวน <strong><font color="#E74C3C">
+													
+																		ไม่มี
+																		
+																			</strong></font> บาท
+										</div>
+										<div class="col-lg-8 col-md-8 col-sm-8">
+											<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> ราคาประเมินของเจ้าพนักงานบังคับคดี
+										</div>
+											<div class="col-lg-4 col-md-4 col-sm-4">
+													จำนวน 
+                       
+                                                                   <strong><font color="#E74C3C">
+																	   367,224.00
+																		   </strong>
+																	   </font> บาท
+										</div>
+										<div class="col-lg-8 col-md-8 col-sm-8">
+											<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> ราคาประเมินของเจ้าพนักงานประเมินราคาทรัพย์กรมบังคับคดี
+										</div>
+											<div class="col-lg-4 col-md-4 col-sm-4">
+													จำนวน 
+                                                                   <strong><font color="#E74C3C">
+																	   
+																		ไม่มี
+																		</strong></font> บาท
+												</div>
+										<div class="col-lg-8 col-md-8 col-sm-8">
+												<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> ราคาที่กำหนดโดยคณะกรรมการกำหนดราคาทรัพย์
+										</div>
+											<div class="col-lg-4 col-md-4 col-sm-4">
+													จำนวน 
+                                                                   <strong><font color="#E74C3C">
+																	   
+																		ไม่มี
+																		
+																		   </strong>
+																	   </font> บาท
+										</div>
+							<div class="col-lg-12 col-md-12 col-sm-12">		
+						 <table width="100%">
+            <!--
+                       <tr> 
+                 	     <td colspan="3" class="font-default-14px">ราคาที่จำนำ จดทะเบียนจำนอง หรือจดทะเบียนสิทธิหรือนิติกรรมครั้งสุดท้าย จำนวน
+                       
+                                                                   ไม่มี</font> บาท</td>
+                      </tr>
+                       <tr> 
+                 	     <td colspan="3" class="font-default-14px">ราคาหรือมูลค่าที่เจ้าหนี้ตามคำพิพากษาซึ่งเป็นสถาบันการเงินแจ้งต่อธนาคารแห่งประเทศไทย <br> หรือหน่วยงานราชการอื่นของปีที่จะขายทอดตลาดหรือของปีที่แจ้งครั้งสุดท้ายจำนวน
+                       
+                                                                   ไม่มี</font> บาท</td>
+                      </tr>
+                      -->
+                       <tr> 
+                 	     <td colspan="2"><img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> วันที่ประกาศขึ้นเว็บ
+							 <strong><font color="#E74C3C"> 13-01-2564</font></strong>
+						   </td>
+                      </tr>
+                      
+						   <tr height="10" valign="middle"> 
+                  <td colspan="2"><img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> <strong><u>หมายเหตุ</u> </strong>
+                    
+                   <!--       <font color="blue" >    ประกาศขายตามประมวลกฏหมายวิธีพิจารณาความแพ่ง (ฉบับที่ 30) พ.ศ.2560 </font>
+                    
+                   <font color="blue" >  ประกาศขายตามประมวลกฏหมายวิธีพิจารณาความแพ่ง ฉบับเดิม  </font> 
+                     <br>-->
+                    <font color="#FF0000">- กรณีขายรวม ขอให้ตรวจสอบรายละเอียดของรายการที่ขายลำดับเดียวกันทุกประเภททรัพย์</font> <br>
+					  <font color="#E74C3C"><strong>  -</strong></font><br>
+						 </td>
+						 </tr>
+				</table>
+				</div>
+				</div>		
+</div>
+								<div class="col-lg-12 col-sm-12">
+									<table width="100%">
+										<tr valign="middle" bgcolor="#2C3E50" height="45">
+										<td>
+											<strong><font color="#FFFFFF"><font size="4">&nbsp;&nbsp;เงื่อนไขผู้เข้าสู้ราคา</font></font></strong>
+										</td>
+										</tr>
+										</table>
+								</div>
+						 
+						 <div class="col-lg-12 col-md-12 col-sm-12">
+									<table width="100%">
+										<tr valign="middle" height="100">
+										<td>
+										
+										ผู้ประสงค์จะเข้าเสนอราคาต้องวางหลักประกันเป็นจำนวน  <strong><font size="+1" color="red">25,000.00</font></strong> บาท
+										
+										<br> เว้นแต่เป็นผู้มีสิทธิหักส่วนได้ใช้แทน หรือคู่สมรสที่ศาลมีคำสั่งอนุญาตให้กันส่วนแล้ว ต้องวางหลักประกันเป็นจำนวน  <strong><font size="+1" color="red">19,000.00 </font></strong> บาท
+										
+										</td>
+										</tr>
+										</table>
+											</div>
+
+						
+<div class="col-lg-12 col-sm-12">
+				<table width="100%">
+										<tr valign="middle" bgcolor="#2C3E50" height="40">
+										<td>
+											<strong><font color="#FFFFFF"><font size="4">&nbsp;&nbsp;ราคาเริ่มต้น</font></font></strong>
+										</td>
+										</tr>
+				</table>
+ 
+ 	<br>
+ <b>ราคาเริ่มต้น</b> ในการกำหนดราคาเริ่มต้นในการขายทอดตลาดให้ใช้ราคาของคณะกรรมการกำหนดราคาทรัพย์
+  ถ้าไม่มีราคาดังกล่าวให้ใช้ราคาประเมินของเจ้าพนักงานประเมินราคาทรัพย์กรมบังคับคดี ถ้าไม่มีราคาประเมินของเจ้าพนักงานประเมินราคาทรัพย์กรมบังคับคดี 
+ ให้ใช้ราคาประเมินของเจ้าพนักงานบังคับคดี ยกเว้นกรณีสำนวนที่มีการริบมัดจำและนำทรัพย์ออกขายใหม่นัดแรกจะใช้ราคาที่เคยเคาะไม้ขายเป็นราคาเริ่มต้น
+ รายละเอียดปรากฎตามประกาศคณะกรรมการกำหนดหลักเกณฑ์ในการกำหนดราคาเริ่มต้นและราคาที่สมควรขายในการขายทอดตลาด 
+ เรื่องหลักเกณฑ์ในการกำหนดราคาเริ่มต้นและราคาที่สมควรขายในการขายทอดตลาด
+<br>
+ 
+             
+
+	<!--
+&nbsp &nbsp &nbsp <b>ราคาเริ่มต้น</b> เป็นไปตามประกาศคณะกรรมการกำหนดหลักเกณฑ์ในการกำหนดราคาเริ่มต้นและราคาที่สมควรขายในการขายทอดตลาด ลงวันที่ 11 มิถุนายน 2555 
+เจ้าพนักงานบังคับคดีจะกำหนดราคาเริ่มต้นสำหรับการขายทอดตลาดแต่ละครั้งตามที่เห็นสมควร โดยคำนึงถึงสภาพทรัพย์ในปัจจุบัน ราคาซื้อขายในท้องตลาด รวมถึงความเหมาะสมประการอื่นประกอบด้วย
+ ทั้งนี้ในกรณีมีเศษ จะมีการปัดเศษเพื่อความสะดวกในการเสนอราคาตามประกาศคณะกรรมการกำหนดหลักเกณฑ์ในการกำหนดราคาเริ่มต้นและราคาที่สมควรขายในการขายทอดตลาดดังกล่าว
+<br>&nbsp &nbsp &nbsp <b>ราคาประเมินอ้างอิง</b> เป็นไปตามประกาศคณะกรรมการกำหนดหลักเกณฑ์ในการกำหนดราคาเริ่มต้นและราคาที่สมควรขายในการขายทอดตลาดที่ใช้บังคับอยู่ โดยเจ้าพนักงานบังคับคดีจะใช้ราคาอ้างอิงของคณะกรรมการกำหนดราคาทรัพย์ หากไม่มีจะใช้ราคาประเมินของเจ้าพนักงานประเมินราคาทรัพย์ กรมบังคับคดี และหากไม่มีราคาทั้งสองดังกล่าว จะใช้ราคาประเมินของเจ้าพนักงานบังคับคดี ราคาประเมินอ้างอิงอาจเปลี่ยนแปลงได้ หากประกาศคณะกรรมการกำหนดหลักเกณฑ์ในการกำหนดราคาเริ่มต้นและราคาที่สมควรขายในการขายทอดตลาดดังกล่าวมีการแก้ไข
+                            -->
+
+         			</td>
+				 </tr>
+	</table>
+	
+<!-- 										
+			<table  width="100%">
+			<tr valign="middle" bgcolor="#2C3E50" height="40">
+			<td><strong><font color="#FFFFFF"><font size="4">&nbsp;&nbsp;เงื่อนไขการเสนอราคาผ่านระบบอิเล็กทรอนิกส์</font></font></strong></td></tr>
+			</table>
+		<br>
+		&nbsp;&nbsp;&nbsp;<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> ผู้ประสงค์จะเข้าเสนอราคาต้องวางหลักประกันการเข้าเสนอราคาต่อเจ้าพนักงานบังคับคดีเป็นจำนวน 150,000.00 บาท (หนึ่งแสนห้าหมื่นบาทถ้วน) เว้นแต่ผู้เข้าเสนอราคานั้นเป็นผู้มีสิทธิขอหักส่วนได้ใช้แทนหรือคู่สมรสที่ศาลมีคำสั่งอนุญาตให้กันส่วนแล้ว	<br>
+		&nbsp;&nbsp;&nbsp;<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> การวางหลักประกันให้วางเป็นเงินสด หรือแคชเชียร์เช็ค <strong>สั่งจ่าย สำนักงานบังคับคดีที่เข้าเสนอราคา</strong>เป็นผู้รับเงิน หรือใช้วิธีทำรายการผ่านระบบ EDC (Electronic Data Capture)   <br>
+		&nbsp;&nbsp;&nbsp;<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> ผู้ที่ซื้อไม่ได้ เจ้าพนักงานบังคับคดีจะคืนหลักประกันให้ทันทีหลังการขายในวันนั้น   <br>
+		&nbsp;&nbsp;&nbsp;<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> คดีนี้ เจ้าพนักงานบังคับคดีได้เพิ่มช่องทางในการเสนอราคาผ่านระบบอิเล็กทรอนิกส์ ผู้ประสงค์จะเข้าเสนอราคาผ่านระบบอิเล็กทรอนิกส์สามารถเสนอราคาได้จาก <strong>สำนักงานบังคับคดีจังหวัดเชียงใหม่ สำนักงานบังคับคดีจังหวัดขอนแก่น สำนักงานบังคับคดีจังหวัดนครราชสีมา สำนักงานบังคับคดีจังหวัดสงขลา และในส่วนกลาง ณ ห้องขายทอดตลาด อาคารอสีติพรรษ กรมบังคับคดี</strong> โดยต้องติดต่อเจ้าพนักงานบังคับคดี ณ สำนักงานบังคับคดีที่ตนประสงค์จะเข้าเสนอราคาในแต่ละแห่งที่กล่าวมาข้างต้น ในส่วนกลางสามารถติดต่อได้ที่ สำนักงานบังคับคดีแพ่งกรุงเทพมหานคร 1 - 6 ก่อนวันขายทอดตลาดในแต่ละนัดเพื่อลงทะเบียนจองเครื่องอุปกรณ์และรับทราบเงื่อนไขในการเข้าเสนอราคาเว้นแต่มีผู้เข้าใช้เครื่องอุปกรณ์ไม่ครบจำนวนที่จัดไว้ เจ้าพนักงานบังคับคดีอาจอนุญาตให้ผู้ประสงค์จะเสนอราคาแล้ว<br>
+		&nbsp;&nbsp;&nbsp;<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/><strong>ในกรณีผู้ประสงค์จะเข้าสู้ราคาเคยเป็นผู้เสนอราคาสูงสุดและไม่ชำระราคาส่วนที่เหลือในคดีนี้จะต้องวางประกันพิเศษต่าเจ้าพนักงานบังคับคดีก่อนเข้าเสนอราคาเป็นจำนวนห้าเท่าของจำนวนหลักประกันข้างต้น </strong> <br> 
+-->			
+<br>		
+			<table class="d-print-none" width="100%">
+				<tr valign="middle" bgcolor="#2C3E50" height="40">
+			<td><strong><font color="#FFFFFF"><font size="4">&nbsp;&nbsp;หมายเหตุ</font></font></strong>	</td></tr>
+			</table>
+			<br>
+				<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> ประกาศนี้จะถูกลบจากเวปไซต์หลังจากพ้นกำหนดวันขายทอดตลาดนัดสุดท้าย
+				<br>
+				<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> กรณีขายทรัพย์ได้แล้ว หรือมีการถอนการยึด หรือถอนการบังคับคดี หรืองดขายทรัพย์ในนัดที่เหลือ จะไม่มีการขายทอดตลาดทรัพย์รายการนั้นอีกต่อไปตามประกาศฉบับนี้ 
+				<br>
+				<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> ก่อนเข้าสู้ราคาผู้ซื้อมีหน้าที่ตรวจสอบรายละเอียดเกี่ยวกับทรัพย์ที่จะซื้อตามสถานที่และแผนที่การไปที่ปรากฎในประกาศ และถือว่าผู้ซื้อได้ทราบถึงสภาพทรัพย์นั้นโดยละเอียดครบถ้วน
+				<br>
+				<img src="/template/theme12/images/dot2.jpg" width="7" height="7" alt="dot pink"/> กรุณาจดเลขที่โฉนด อำเภอ จังหวัด
+		              <br>
+						  
+	<table width="100%">	   
+  <tr align="center"> 
+    <td height="50" valign="middle">
+ <strong> หากท่านสนใจทรัพย์รายการนี้ กรุณาติดต่อสำนักงานบังคับคดีเจ้าของสำนวน โดยสามารถตรวจสอบเบอร์โทรศัพท์ได้จากเว็บไซต์ของสำนักงานบังคับคดีทั่วประเทศ </strong><br>
+   <!-- <img src="img/led010.gif" width="533" height="13"> -->
+    </td>
+  </tr>
+						 </table>		
+						</div>
+						  
+			
+			</div>
+	</div>
+</div>
+						 
+	        <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery').lightGallery();
+        });
+        </script>
+		   	        <script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery2').lightGallery();
+        });
+        </script>
+		<script type="text/javascript">
+        $(document).ready(function(){
+            $('#lightgallery3').lightGallery();
+        });
+        </script>
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="/template/Theme12/lightGallery/dist/js/lightgallery-all.js"></script>
+        <script src="/template/Theme12/lightGallery/lib/jquery.mousewheel.min.js"></script>
+<!-- Footer -->
+</div>
+<div class="container-fluid bg-dark d-print-none">
+	    	<div  class="row ml-auto">
+      			<div class="col-lg-5 col-md-5 col-sm-12 normaltxt">
+                <div class="card-body">
+                กรมบังคับคดี
+                    189/1 ถนนบางขุนนนท์  เขตบางกอกน้อย กรุงเทพฯ 10700<br>
+                    โทร 0 - 2881 - 4999 (อัตโนมัติ 20 คู่สาย)
+					<br>ติดต่อผู้ดูแลเว็บไซต์ : itsupport@led.mail.go.th
+                      </div>
+                      </div>
+				
+								       <div class="col-lg-2 col-md-2 col-sm-12" >
+                        <div  class="card-body">
+                                            <img class="card-img-top" src="/template/theme12/img/hotline.png" alt="hotline">
+                                    </div>
+       	  				</div>
+				
+				<div class="col-lg-5 col-md-5 col-sm-12 normaltxt">
+					 <div align="center" class="card-body d-none d-md-block">
+                    ***ข้อมูลต่าง ๆ ในเว็บไซต์นี้ ถือเป็นสมบัติของกรมบังคับคดี <br>
+						 <strong><u>ห้าม</u></strong> ผู้ใดนำไปใช้, ทำซ้ำ, ดัดแปลง, แก้ไขข้อมูล ดังกล่าวโดยมิได้รับอนุญาต ผู้ใดฝ่าฝืนจะถูกดำเนินคดีตามกฎหมาย***<br>
+						 </div>
+				</div>
+
+                             </div>
+</div>
+
+			<script language="javascript">
+function printpr()
+{
+var OLECMDID = 7;
+/* OLECMDID values:
+* 6 - print
+* 7 - print preview
+* 1 - open window
+* 4 - Save As
+*/
+var PROMPT = 1; // 2 DONTPROMPTUSER
+var WebBrowser = '<OBJECT ID="WebBrowser1" WIDTH=0 HEIGHT=0 CLASSID="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></OBJECT>';
+document.body.insertAdjacentHTML('beforeEnd', WebBrowser);
+WebBrowser1.ExecWB(OLECMDID, PROMPT);
+WebBrowser1.outerHTML = "";
+}
+</script>
+    

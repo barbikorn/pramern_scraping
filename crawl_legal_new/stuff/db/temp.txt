@@ -1,0 +1,1 @@
+UPDATE from_led SET court=%s, case_num=%s, plaintiff=%s, defendant=%s, prop_type=%s, deed_num=%s, size=%s, house_num=%s, sub_district=%s, district=%s, province=%s, owner=%s, case_owner=%s, contact=%s, idiom_owner=%s, sale_place=%s, price_from_expert=%s, price_from_led=%s, price_from_led_em=%s, price_from_committee=%s WHERE id = %s;
